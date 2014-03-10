@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4201108618CD9F9100BD8C3A /* LWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4201108518CD9F9100BD8C3A /* LWCategory.m */; };
 		42424FAE18CC533D004A64C9 /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42424FAD18CC533D004A64C9 /* InputViewController.m */; };
 		42424FB118CC582B004A64C9 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42424FB018CC582B004A64C9 /* CategoryViewController.m */; };
 		42424FB418CC5842004A64C9 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42424FB318CC5842004A64C9 /* ActivityViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4201108418CD9F9100BD8C3A /* LWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWCategory.h; sourceTree = "<group>"; };
+		4201108518CD9F9100BD8C3A /* LWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWCategory.m; sourceTree = "<group>"; };
 		42424FAC18CC533D004A64C9 /* InputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputViewController.h; path = ../InputViewController.h; sourceTree = "<group>"; };
 		42424FAD18CC533D004A64C9 /* InputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputViewController.m; path = ../InputViewController.m; sourceTree = "<group>"; };
 		42424FAF18CC582B004A64C9 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				4272DB8517C9DBB0008C9929 /* AppDelegate.h */,
 				4272DB8617C9DBB0008C9929 /* AppDelegate.m */,
 				4272DB8E17C9DBB1008C9929 /* MainStoryboard.storyboard */,
+				4201108418CD9F9100BD8C3A /* LWCategory.h */,
+				4201108518CD9F9100BD8C3A /* LWCategory.m */,
 				42424FAC18CC533D004A64C9 /* InputViewController.h */,
 				42424FAD18CC533D004A64C9 /* InputViewController.m */,
 				42424FAF18CC582B004A64C9 /* CategoryViewController.h */,
@@ -171,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4201108618CD9F9100BD8C3A /* LWCategory.m in Sources */,
 				42424FB118CC582B004A64C9 /* CategoryViewController.m in Sources */,
 				4272DB8317C9DBB0008C9929 /* main.m in Sources */,
 				42424FAE18CC533D004A64C9 /* InputViewController.m in Sources */,
@@ -263,6 +269,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stuff and Things/Stuff and Things-Prefix.pch";
 				INFOPLIST_FILE = "Stuff and Things/Stuff and Things-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +281,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stuff and Things/Stuff and Things-Prefix.pch";
 				INFOPLIST_FILE = "Stuff and Things/Stuff and Things-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
