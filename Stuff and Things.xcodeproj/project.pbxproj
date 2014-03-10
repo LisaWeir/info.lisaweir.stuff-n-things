@@ -7,20 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42424FAE18CC533D004A64C9 /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42424FAD18CC533D004A64C9 /* InputViewController.m */; };
+		42424FB118CC582B004A64C9 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42424FB018CC582B004A64C9 /* CategoryViewController.m */; };
+		42424FB418CC5842004A64C9 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42424FB318CC5842004A64C9 /* ActivityViewController.m */; };
 		4272DB7717C9DBB0008C9929 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4272DB7617C9DBB0008C9929 /* UIKit.framework */; };
 		4272DB7917C9DBB0008C9929 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4272DB7817C9DBB0008C9929 /* Foundation.framework */; };
 		4272DB7B17C9DBB0008C9929 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4272DB7A17C9DBB0008C9929 /* CoreGraphics.framework */; };
 		4272DB8117C9DBB0008C9929 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4272DB7F17C9DBB0008C9929 /* InfoPlist.strings */; };
 		4272DB8317C9DBB0008C9929 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4272DB8217C9DBB0008C9929 /* main.m */; };
 		4272DB8717C9DBB0008C9929 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4272DB8617C9DBB0008C9929 /* AppDelegate.m */; };
-		4272DB8917C9DBB0008C9929 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4272DB8817C9DBB0008C9929 /* Default.png */; };
-		4272DB8B17C9DBB1008C9929 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4272DB8A17C9DBB0008C9929 /* Default@2x.png */; };
-		4272DB8D17C9DBB1008C9929 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4272DB8C17C9DBB1008C9929 /* Default-568h@2x.png */; };
 		4272DB9017C9DBB1008C9929 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4272DB8E17C9DBB1008C9929 /* MainStoryboard.storyboard */; };
-		4272DB9317C9DBB1008C9929 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4272DB9217C9DBB1008C9929 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42424FAC18CC533D004A64C9 /* InputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputViewController.h; path = ../InputViewController.h; sourceTree = "<group>"; };
+		42424FAD18CC533D004A64C9 /* InputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputViewController.m; path = ../InputViewController.m; sourceTree = "<group>"; };
+		42424FAF18CC582B004A64C9 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		42424FB018CC582B004A64C9 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		42424FB218CC5842004A64C9 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		42424FB318CC5842004A64C9 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
 		4272DB7317C9DBB0008C9929 /* Stuff and Things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stuff and Things.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4272DB7617C9DBB0008C9929 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4272DB7817C9DBB0008C9929 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,12 +36,7 @@
 		4272DB8417C9DBB0008C9929 /* Stuff and Things-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stuff and Things-Prefix.pch"; sourceTree = "<group>"; };
 		4272DB8517C9DBB0008C9929 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4272DB8617C9DBB0008C9929 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4272DB8817C9DBB0008C9929 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		4272DB8A17C9DBB0008C9929 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		4272DB8C17C9DBB1008C9929 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4272DB8F17C9DBB1008C9929 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		4272DB9117C9DBB1008C9929 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4272DB9217C9DBB1008C9929 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,12 @@
 				4272DB8517C9DBB0008C9929 /* AppDelegate.h */,
 				4272DB8617C9DBB0008C9929 /* AppDelegate.m */,
 				4272DB8E17C9DBB1008C9929 /* MainStoryboard.storyboard */,
-				4272DB9117C9DBB1008C9929 /* ViewController.h */,
-				4272DB9217C9DBB1008C9929 /* ViewController.m */,
+				42424FAC18CC533D004A64C9 /* InputViewController.h */,
+				42424FAD18CC533D004A64C9 /* InputViewController.m */,
+				42424FAF18CC582B004A64C9 /* CategoryViewController.h */,
+				42424FB018CC582B004A64C9 /* CategoryViewController.m */,
+				42424FB218CC5842004A64C9 /* ActivityViewController.h */,
+				42424FB318CC5842004A64C9 /* ActivityViewController.m */,
 				4272DB7D17C9DBB0008C9929 /* Supporting Files */,
 			);
 			path = "Stuff and Things";
@@ -100,9 +104,6 @@
 				4272DB7F17C9DBB0008C9929 /* InfoPlist.strings */,
 				4272DB8217C9DBB0008C9929 /* main.m */,
 				4272DB8417C9DBB0008C9929 /* Stuff and Things-Prefix.pch */,
-				4272DB8817C9DBB0008C9929 /* Default.png */,
-				4272DB8A17C9DBB0008C9929 /* Default@2x.png */,
-				4272DB8C17C9DBB1008C9929 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,9 +160,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4272DB8117C9DBB0008C9929 /* InfoPlist.strings in Resources */,
-				4272DB8917C9DBB0008C9929 /* Default.png in Resources */,
-				4272DB8B17C9DBB1008C9929 /* Default@2x.png in Resources */,
-				4272DB8D17C9DBB1008C9929 /* Default-568h@2x.png in Resources */,
 				4272DB9017C9DBB1008C9929 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,9 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42424FB118CC582B004A64C9 /* CategoryViewController.m in Sources */,
 				4272DB8317C9DBB0008C9929 /* main.m in Sources */,
+				42424FAE18CC533D004A64C9 /* InputViewController.m in Sources */,
 				4272DB8717C9DBB0008C9929 /* AppDelegate.m in Sources */,
-				4272DB9317C9DBB1008C9929 /* ViewController.m in Sources */,
+				42424FB418CC5842004A64C9 /* ActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +298,7 @@
 				4272DB9817C9DBB1008C9929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
